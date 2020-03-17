@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Damaged_Package</fullName>
+        <description>Damaged Package</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>k.kyartel@playful-fox-1e9c9c.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>twood@ymail.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/SupportCaseAssignmentNotification</template>
+    </alerts>
+    <alerts>
+        <fullName>Package_Damaged</fullName>
+        <description>Package Damaged</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>k.kyartel@playful-fox-1e9c9c.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>twood@ymail.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/SupportCaseAssignmentNotification</template>
+    </alerts>
+</Workflow>
